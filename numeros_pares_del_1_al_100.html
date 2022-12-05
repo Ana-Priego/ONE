@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+
+<h1>Programa que muestra todos los números pares del 1 al 100.</h1>
+
+<script>
+
+    function saltarLinea() {
+
+        document.write("<br><br>");
+
+    }
+
+    function imprimir(frase) {
+
+        saltarLinea();
+        document.write(frase);
+        saltarLinea();
+
+    }
+
+    var numero = 0;
+
+    while(numero >= 0 && numero <100) {
+
+        numero+=2;
+        imprimir(numero);
+        
+    }
+
+</script>
